@@ -1,7 +1,7 @@
 
 # Netflix Clone (React APP)
 
-- It is a complete Rect and API (TMDB) based project.
+- It is a complete React and API (TMDB) based project.
 - View trailer of movie / web series from app.
 - Fetch dynamically movie / web series details.
 - I got knowledge from this project, how to work with API's and third party libraries.
