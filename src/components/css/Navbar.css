@@ -1,0 +1,48 @@
+.nav{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    height: 70px;
+    top:0;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    z-index: 1;
+}
+
+.nav_black{
+    background-color: #111;
+}
+
+.nav_logo{
+    width: 100px;
+    margin-left: 3%;
+    align-self: baseline;
+    object-fit: contain;
+}
+
+.nav_menu{
+    display: flex;
+    align-items: center;
+
+}
+
+.nav_menu li {
+    list-style: none;
+    margin: 0px 10px;
+    color:white;
+}
+
+.nan_link{
+    text-decoration: none !important;
+    color:white !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav_logo{
+        width: 80px;
+    }
+}

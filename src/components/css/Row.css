@@ -1,0 +1,57 @@
+.row_wrapper{
+  color: #eeeeee; 
+  padding-left:3% !important;
+}
+
+.padding_row{
+  padding-top: 10px;
+}
+
+.row_posters {
+  width: 100%;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px 0px 20px 10px;
+  margin: 0;
+}
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
+.row_poster {
+  object-fit: contain;
+  width: 100%;
+  max-height: 170px;
+  padding-right: 20px;
+  transition: transform 350ms;
+}
+
+.row_poster:hover {
+  transform: scale(1.08);
+  opacity: 1;
+  cursor: pointer;
+}
+
+.row_posterLarger {
+  max-height: 300px;
+  transition: transform 350ms;
+}
+
+.row_posterLarger:hover {
+  transform: scale(1.11);
+  opacity: 1;
+}
+
+.loading_spinner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  padding: 0 50px;
+}
+
+
+
+
+

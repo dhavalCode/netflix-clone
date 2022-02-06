@@ -1,0 +1,14 @@
+.app{
+  margin: 0;
+  background-color: #111;
+}
+.modal_spinner{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5% 0px;
+}
+
+
+
